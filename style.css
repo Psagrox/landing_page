@@ -1,0 +1,37 @@
+body {
+    background-color: #1f2937;
+}
+
+
+
+.container_barra{
+    display: flex;
+    margin-right: 50px;
+   
+}
+
+.container_barra #titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 45px;
+} 
+#barra {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#barra li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #e5e7eb;
+    display: inline;
+    margin-top: 0px;
+    padding: 0%;
+    margin-left: 10px;
+    
+   
+}
