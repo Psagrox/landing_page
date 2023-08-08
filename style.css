@@ -6,8 +6,8 @@ body {
 
 .container_barra{
     display: flex;
-    margin-right: 50px;
-   
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container_barra #titulo {
@@ -15,23 +15,67 @@ body {
     font-weight: bolder;
     font-size: 15px;
     color: #f9faf8;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 45px;
+    margin-left: 50px;
 } 
-#barra {
-    justify-content: flex-end;
-    align-items: flex-start;
+
+
+.container_barra #barra {
+    margin-left: 200px;
+    color: #e5e7eb;
+    flex: 0 1 30%;
+    
 }
-#barra li {
+.container_barra #barra li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     color: #e5e7eb;
-    display: inline;
-    margin-top: 0px;
-    padding: 0%;
+    display: inline-flex;
     margin-left: 10px;
-    
-   
+}
+
+
+.contenido_superior{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline-flex;
+    font-size: 24px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+
+.contenido_superior #contenido {
+    font-size: 18px;
+    font-weight: lighter;
+    max-width: 500px;
+
+}
+
+.contenido_superior #imagen {
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-left: 50px;
+    border: 0.8px solid #e5e7eb;
+    border-radius: 10%;
+}
+
+.contenido_superior #imajen {
+    border-radius: 10%;
+}
+
+.contenido_superior button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    box-shadow: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 24px;
+    transition-duration: 0,4s;
+    border: 0.5px solid #3882f6;
+    font-weight: bold;
+}
+.contenido_superior button:hover{
+    background-color: #8db1eb;
+    color: #e5e7eb;
 }
